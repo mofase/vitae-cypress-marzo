@@ -6,6 +6,7 @@
 
 - [ ] Installation and first run of Cypress
 - [ ] Extract examples from Cypress
+- [ ] hello cypress
 
 ## 1. Selectors and content checking
 
