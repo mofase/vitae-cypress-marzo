@@ -1,0 +1,53 @@
+{
+  "name": "vitae-cypress-marzo",
+  "version": "22.3.29",
+  "description": "Curso de introducción a Cypress",
+  "author": {
+    "name": "Alberto Basalo",
+    "email": "albertobasalo@hotmail.com",
+    "url": "https://twitter.com/albertobasalo"
+  },
+  "homepage": "https://github.com/LabsAdemy/vitae-cypress-marzo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LabsAdemy/vitae-cypress-marzo.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LabsAdemy/vitae-cypress-marzo/issues"
+  },
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run",
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node ./src/main.ts",
+    "test:dev": "jest --watch",
+    "ts-node": "ts-node",
+    "format": "prettier --write \"./**/*.{ts,json}\"",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "npm run lint -- --fix",
+    "prerelease": "standard-version ",
+    "release": "git push --follow-tags origin main",
+    "update": "ncu -u"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "cypress": "^9.5.2",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.1.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "npm-check-updates": "^12.5.4",
+    "prettier": "^2.6.1",
+    "standard-version": "^9.3.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
