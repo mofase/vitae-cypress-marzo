@@ -4,9 +4,9 @@
 
 ## 0. Installation and start
 
-- [ ] Installation and first run of Cypress
-- [ ] Extract examples from Cypress
-- [ ] hello cypress
+- [x] Installation and first run of Cypress
+- [x] Extract examples from Cypress
+- [x] hello cypress
 
 ## 1. Selectors and content checking
 
