@@ -21,7 +21,6 @@
     "test": "cypress run",
     "build": "tsc -p tsconfig.json",
     "dev": "ts-node ./src/main.ts",
-    "test:dev": "jest --watch",
     "ts-node": "ts-node",
     "format": "prettier --write \"./**/*.{ts,json}\"",
     "lint": "eslint src --ext .ts",
