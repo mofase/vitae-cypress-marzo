@@ -1,20 +1,22 @@
-# Cypress
+# Curso de introducción a Cypress
 
-### Curso pruebas e2e con Cypress
+> Edición marzo 22 Vitae
 
-## 0 - Configuración y ejecución
+### 0 - Configuración y ejecución
 
-## 1 - Simulación del comportamiento
+### 1 - Simulación del comportamiento
 
-## 2 - Comunicaciones remotas
+### 2 - Comunicaciones remotas
 
-## 3 - Automatización y herramientas
+### 3 - Automatización y herramientas
 
-## 4 - Casos avanzados
+### 4 - Casos avanzados
 
-## Sujeto bajo pruebas
+---
 
-### [Projects budget](https://angularbuilders.github.io/angular-budget/)
+#### Sujeto bajo pruebas
+
+- [Projects budget](https://angularbuilders.github.io/angular-budget/)
 
 ---
 
