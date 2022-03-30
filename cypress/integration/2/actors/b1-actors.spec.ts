@@ -70,6 +70,5 @@ describe('GIVEN a user navigate to _login_ page', ()=>{
 });
 
 function clearInputs(){
-    cy.get('input[name=email]').clear();
-    cy.get('input[name=password]').clear();
+    cy.get('input').clear();
 }
