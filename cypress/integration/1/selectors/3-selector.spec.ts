@@ -14,31 +14,6 @@ describe("The budget home page",()=>{
         cy.visit(homePageUrl);
     })
     */
-    it("should contains _Budget_",()=>{
-        // act
-        cy.contains("Budget");
-    });
-    it("should display _budget_ on an anchor", ()=>{
-        // act.assert
-        cy.get("a").should("contain","Budget");
-    });
-    it("should display app name with a given style class", ()=>{
-        // act.assert
-        cy.get(".navbar-brand").should("contain","Budget");
-    });
-    it("should display app name on a precise identifier", ()=>{
-        // act.assert
-        cy.get("#app-name").should("contain","Budget");
-    });
-    it("should display app name on a precise node", ()=>{
-        // act.assert
-        cy.get('[data-test-id="app-name"]').should("contain","Budget");
-    });
-    it("should display app name on a precise node", ()=>{
-        // act.assert
-        cy.get('[role=banner]').should("contain","Budget");
-    });
-
     it("should display h1", ()=>{
         // act.assert
         cy.get('h1.title').should("contain","Budget");
