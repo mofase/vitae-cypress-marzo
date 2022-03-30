@@ -41,11 +41,13 @@ describe('GIVEN a user navigate to _login_ page', ()=>{
             cy.log("Before filled correctly");
             cy.get('input[name=email]').type("fake_user@wordl.org");
             cy.get('input[name=password]').type("fake_pass");
-        });
-        it('THEN _submit_ should be enabled',()=>{
-           // Asssert
+            
            cy.get("button[type=submit]").should("be.enabled"); 
            cy.get("button[type=submit]").click(); 
+        });
+        it('THEN _submit_ should be enabled',()=>{
+           
+           cy.get("aside").should("contain.text", "Not found");
         });
         after(()=>{
             cy.get('input[name=email]').clear();
